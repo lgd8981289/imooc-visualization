@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Electronic';
+  src: url('./assets/fonts/FX-LED.ttf') format('truetype');
+}
+
+.text-gradient {
+  /* 背景渐变 */
+  background-image: linear-gradient(to bottom, #e5e4ea, #5EA8F2);
+  /* 元素背景延伸到文本 */
+  -webkit-background-clip: text;
+  /* 文本字符填充颜色透明 */
+  -webkit-text-fill-color: transparent;
+}
